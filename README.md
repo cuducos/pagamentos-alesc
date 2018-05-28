@@ -27,5 +27,5 @@ docker run -it -v $(pwd):/alesc alesc scrapy crawl alesc -o data.csv
 Inicia uma sessão do Jupyter Notebook com:
 
 ```sh
-docker run -it -v $(pwd):/alesc -p 8888:8888 alec
+docker run -it -v $(pwd):/alesc -p 8888:8888 alesc
 ```
